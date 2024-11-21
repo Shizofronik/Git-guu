@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+    background: url("./images/background.png");
+    background-size: cover;
+    font-family: "Nunito", monospace;
+}
+
+.hat {
+    display: table;
+    background: transparent;
+    height: 440px;
+    width: 100%;
+}
+
+.hat div{
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+
+.hat-title{
+    color: #FFFFFF;
+    font-size: 44px;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 20px;
+}
+.hat-title h3{
+    padding-left: 20px;
+}
+
+.hat-list{
+    color: #FFFFFF;
+    opacity: 0.8;
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.button {
+  width: 200px;
+  background-color: #D9D9D9;
+  color: #352828;
+  border: 2px solid #161313;
+  border-radius: 40px;
+  padding: 12px 32px;
+  margin: 20px;
+  margin-top: -15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button ul{
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+.button:hover {
+  color: #D9D9D9;
+  background-color: #161313;
+  cursor: pointer;
+  border: 2px solid #D9D9D9;
+}
