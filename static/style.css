@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito&display=swap');
 
 body {
     background: url("./images/background1.png");
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: blur(5px);
+    overflow-x:  hidden;
     font-family: "Nunito", monospace;
     margin: 0px; !important
 }
@@ -30,9 +32,9 @@ a {
 
 .hat-title{
     color: #FFFFFF;
-    font-size: 65px;
+    font-size: 72px;
     font-weight: bolder;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Montserrat", sans-serif;
     margin-bottom: 20px;
 }
 .hat-title h3{
@@ -170,7 +172,7 @@ a {
 
 .about_block-title {
     font-size: 50px;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #FFFFFF;
     font-weight: bolder;
     text-align: left;
@@ -178,13 +180,20 @@ a {
     margin-bottom: -120px;
 }
 
-.about_block-list{
+.about_block-list {
     width: 40%;
-    font-size: 20px;
     color: #FFFFFF;
     text-align: left;
     margin-left: 70px;
+    margin-top: 50px;
     display: inline-block;
+    vertical-align: top;
+}
+
+.about_block-list h4{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
 }
 
 .about_block-image{
@@ -197,24 +206,56 @@ a {
     width: 30%;
     display: inline-block;
     position: absolute;
-    margin-left: -370px;
+    margin-left: -360px;
     margin-top: 150px;
+}
+
+.about_button {
+  width: auto;
+  float: left;
+  background-color: rgba(255, 0, 0, 0.0);
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px 30px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+  margin-right: 15px;
+  margin-top: 0px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: bolder;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.about_button ul{
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+.about_button:hover {
+  z-index: 1;
+  color: black;
+  background-color: white;
+  cursor: pointer;
 }
 
 
 .block_title {
     font-size: 60px;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #FFFFFF;
-    font-weight: bolder;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 280px;
     margin-bottom: 30px;
 }
 
-.block_title-list {
+.block_title-list h4 {
     font-size: 16px;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
     color: #FFFFFF;
     text-align: center;
     margin-top: -80px;
