@@ -270,3 +270,52 @@ a {
   border-radius: 50%;
   margin-left: 4%;
 }
+
+.contacts {
+    margin-top: 80px;
+    display: table;
+    background-color: #1D1C2C;
+    height: 250px;
+    width: 100%;
+}
+
+.contacts-title{
+    font-size: 24px;
+    color: #D0D0D0;
+    font-family: "Nunito", sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.contacts-list{
+    width: 20rem;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    color: #008000;
+    margin-top: 20px;
+}
+
+.contacts a{
+    color: #D0D0D0;
+    outline: none;
+    display: block;
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding: 6px 0;
+    transition: .3s linear;
+}
+
+.contacts-list a:hover {
+  color: #5A75FF;
+  cursor: pointer;
+}
+
+.contacts h3{
+    padding: 6px 0;
+    color: white;
+}
+
+.contacts-list h3:before {
+  content: "•";
+  margin-right: 14px;
+}
