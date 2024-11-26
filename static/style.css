@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito&display=swap');
 
 body {
-    background: url("./images/background1.png");
+    background-color: #dbdbdb;
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: blur(5px);
@@ -35,6 +35,7 @@ a {
     font-size: 72px;
     font-weight: bolder;
     font-family: "Montserrat", sans-serif;
+    color: black;
     margin-bottom: 20px;
 }
 .hat-title h3{
@@ -52,9 +53,9 @@ a {
 
 .button {
   width: 200px;
-  background-color: #9E0305;
+  background-color: black;
   color: white;
-  border: 2px solid #9E0305;
+  border: 2px solid black;
   border-radius: 40px;
   padding: 12px 32px;
   margin: 20px;
@@ -74,16 +75,16 @@ a {
 
 .button:hover {
   z-index: 1;
-  color: #D9D9D9;
+  color: black;
   background-color: rgba(255, 0, 0, 0.0);
   cursor: pointer;
 }
 
 .button2 {
   width: 200px;
-  background-color: rgba(255, 0, 0, 0.0);
+  background-color: #6666ff;
   color: white;
-  border: 2px solid #9E0305;
+  border: 2px solid #6666ff;
   border-radius: 40px;
   padding: 12px 32px;
   margin: 20px;
@@ -103,8 +104,8 @@ a {
 
 .button2:hover {
   z-index: 1;
-  color: #D9D9D9;
-  background-color: #9E0305;
+  color: #6666ff;
+  background-color: rgba(255, 0, 0, 0.0);
   cursor: pointer;
 }
 
@@ -112,8 +113,8 @@ a {
   width: auto;
   float: right;
   background-color: rgba(255, 0, 0, 0.0);
-  color: white;
-  border: 2px solid white;
+  color: black;
+  border: 2px solid black;
   border-radius: 40px;
   padding: 12px 32px;
   margin-left: 20px;
@@ -135,15 +136,15 @@ a {
 
 .button3:hover {
   z-index: 1;
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: black;
   cursor: pointer;
 }
 
 .topmenu {
     height: 100px;
     width: 100%;
-    color: white;
+    color: black;
     font-size: 14px;
 }
 
@@ -167,13 +168,13 @@ a {
     margin-left: 5%;
     height: 550px;
     display: inline-block;
-    border-left: 4px solid #7581D9;
+    border-left: 4px solid #6666ff;
 }
 
 .about_block-title {
     font-size: 50px;
     font-family: "Montserrat", sans-serif;
-    color: #FFFFFF;
+    color: black;
     font-weight: bolder;
     text-align: left;
     margin-left: 70px;
@@ -182,7 +183,7 @@ a {
 
 .about_block-list {
     width: 40%;
-    color: #FFFFFF;
+    color: black;
     text-align: left;
     margin-left: 70px;
     margin-top: 50px;
@@ -214,8 +215,8 @@ a {
   width: auto;
   float: left;
   background-color: rgba(255, 0, 0, 0.0);
-  color: white;
-  border: 2px solid white;
+  color: black;
+  border: 2px solid black;
   border-radius: 10px;
   padding: 10px 30px;
   margin-left: 0px;
@@ -237,8 +238,8 @@ a {
 
 .about_button:hover {
   z-index: 1;
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: black;
   cursor: pointer;
 }
 
@@ -246,7 +247,7 @@ a {
 .block_title {
     font-size: 60px;
     font-family: "Montserrat", sans-serif;
-    color: #FFFFFF;
+    color: black;
     text-align: center;
     margin-top: 280px;
     margin-bottom: 30px;
@@ -256,7 +257,7 @@ a {
     font-size: 16px;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    color: #FFFFFF;
+    color: black;
     text-align: center;
     margin-top: -80px;
 }
@@ -266,7 +267,7 @@ a {
   height: 25px;
   float: left;
   background-color: rgba(255, 0, 0, 0.0);
-  border: 4px solid #7581D9;
+  border: 4px solid #6666ff;
   border-radius: 50%;
   margin-left: 4%;
 }
@@ -274,7 +275,7 @@ a {
 .contacts {
     margin-top: 80px;
     display: table;
-    background-color: #1D1C2C;
+    background-color: #161313;
     height: 250px;
     width: 100%;
 }
