@@ -1,9 +1,0 @@
-title: Frontend for Git-guu
-optionalCategoryIndex: true
-supportedLanguages: []
-properties: []
-versions:
-  - "0.01"
-description: Фронтенд для закрытой системы контроля версий
-style: purple
-code: GitG
